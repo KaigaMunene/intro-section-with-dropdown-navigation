@@ -12,5 +12,12 @@
   "plugins": ["react", "prettier"],
   "rules": {
     "prettier/prettier": "error"
+  },
+  "settings": {
+    "import/resolver": {
+      "node": {
+        "extensions": [".js", ".jsx"]
+      }
+    }
   }
 }
