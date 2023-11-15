@@ -24,7 +24,7 @@ function CompanyDropdownMenu() {
         {isOpen ? <FiChevronUp /> : <FiChevronDown />}
       </button>
       {isOpen && (
-        <div className="flex flex-col justify-between relative md:absolute px-4 text-xs font-light md:bg-white border rounded-lg shadow-2xl">
+        <div className="flex flex-col justify-between relative md:absolute px-4 text-xs font-light md:bg-white md:border md:rounded-lg md:shadow-2xl">
           <DropdownMenu
             items={[
               { to: '/history', label: 'History' },
