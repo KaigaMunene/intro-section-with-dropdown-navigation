@@ -1,8 +1,8 @@
-import pap from '../assets/images/image-hero-desktop.png';
+import Content from '../components/Content';
 function home() {
   return (
-    <div className="bg-backgroundColor">
-      <img src={pap} alt="" />
+    <div className="w-full max-h-screen">
+      <Content />
     </div>
   );
 }
