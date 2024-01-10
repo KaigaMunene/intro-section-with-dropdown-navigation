@@ -7,7 +7,7 @@ function ResponsiveImages() {
       <img
         src={mobileImage}
         alt="Mobile image"
-        className="block md:hidden h-auto"
+        className="block md:hidden h-auto mb-8"
       />
       <img
         src={desktopImage}
